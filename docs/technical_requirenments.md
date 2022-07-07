@@ -122,6 +122,7 @@ he added a secret link to the NFT.
 In the /language command, the bot sends a message with three buttons to select a language.
 Available languages:
 
+- Russian
 - English
 - Italian
 
