@@ -1,0 +1,17 @@
+{
+    "token_address": "0xffed35bc5fb514098df353840e4eda01c4c7c776",
+    "token_id": "1",
+    "owner_of": "0x08f77d968169e460bf91ff0e9ac9372309a7be24",
+    "block_number": "15085419",
+    "block_number_minted": "15085419",
+    "token_hash": "1a2e0d34b2b596b4643790b6ec525ba4",
+    "amount": "1",
+    "updated_at": "1657066495.84",
+    "contract_type": "ERC721",
+    "name": "Downsies",
+    "symbol": "Downsie",
+    "token_uri": "https://ipfs.moralis.io:2053/ipfs/QmQp829X55sqBhtSKfkLjwabo7KAua14H2a9sbZJVA5rhF/1.json",
+    "metadata": "{\"name\":\"Downsie #1\",\"description\":\"Downsies is a deflationary collection of 3,333 NFTs that aims to bring together the brightest minds from Web 2 and Web 3 through dope art, staking, tokenomics, and just good vibes. Built on being different. \",\"image\":\"ipfs://QmVEoowThkoj6QzbkHjNojeExxARYwH4DmLR2pnQijeNZs/1.png\",\"dna\":\"8303b8adc5aab57b03fd332656a85481d2ad3afa\",\"edition\":1,\"date\":1657249947510,\"attributes\":[{\"trait_type\":\"Background\",\"value\":\"Sakura Blast\"},{\"trait_type\":\"Body\",\"value\":\"Lemon\"},{\"trait_type\":\"Clothing\",\"value\":\"Downsies Tanktop\"},{\"trait_type\":\"Eyes\",\"value\":\"Hearty\"},{\"trait_type\":\"Mouth\",\"value\":\"Mouthful\"},{\"trait_type\":\"Accessories\",\"value\":\"Bullion Bangle\"},{\"trait_type\":\"Head\",\"value\":\"Camel Sidepart\"}],\"compiler\":\"HashLips Art Engine\"}",
+    "last_token_uri_sync": "2022-07-10T14:02:51.801Z",
+    "last_metadata_sync": "2022-07-10T14:03:02.937Z"
+}

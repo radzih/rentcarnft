@@ -1,0 +1,6 @@
+pybabel extract ./tgbot -o locales/testbot.pot -k locale
+pybabel init -i locales/testbot.pot -d locales -D testbot -l it
+Поменял один перевод
+#: tgbot/keyboards/inline.py:66 tgbot/keyboards/inline.py:109
+msgid "❌Close"
+msgstr "Changed button safdsdaf"

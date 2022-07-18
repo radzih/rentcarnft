@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from pathlib import Path
 
 from environs import Env
 
@@ -20,7 +21,14 @@ class TgBot:
 
 @dataclass
 class Miscellaneous:
-    other_params: str = None
+    locale_dir: str
+    locale_domain: str
+    moralis_api_token: str
+    support_chat_id: int
+
+@dataclass
+class RedisConfig:
+    host: str
 
 
 @dataclass
@@ -28,6 +36,8 @@ class Config:
     tg_bot: TgBot
     db: DbConfig
     misc: Miscellaneous
+    redis: RedisConfig
+
 
 
 def load_config(path: str = None):
@@ -46,5 +56,13 @@ def load_config(path: str = None):
             user=env.str('DB_USER'),
             database=env.str('DB_NAME')
         ),
-        misc=Miscellaneous()
+        redis=RedisConfig(
+            host=env.str('REDIS_HOST'),
+        ),
+        misc=Miscellaneous(
+            locale_domain='testbot',
+            locale_dir=Path(__file__).parent.parent / f"locales/",
+            moralis_api_token=env.str('MORALIS_API_TOKEN'),
+            support_chat_id=env.int('SUPPORT_CHAT_ID'),
+        )
     )

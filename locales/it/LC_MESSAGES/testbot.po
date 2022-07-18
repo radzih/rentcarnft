@@ -1,0 +1,183 @@
+# Italian translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-07-18 14:24+0300\n"
+"PO-Revision-Date: 2022-07-18 13:26+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: tgbot/handlers/cars.py:17
+msgid "No avaible cars"
+msgstr ""
+
+#: tgbot/handlers/cars.py:21 tgbot/handlers/cars.py:40
+msgid ""
+"<b>{car_name}</b>\n"
+"Procent: {car_part}%\n"
+msgstr ""
+
+#: tgbot/handlers/lang.py:11
+msgid "Select your language"
+msgstr ""
+
+#: tgbot/handlers/lang.py:21
+msgid "Language changed to {}"
+msgstr ""
+
+#: tgbot/handlers/menu.py:9
+msgid ""
+"Menu:\n"
+"1. /start - start bot\n"
+"2. /menu - show this menu\n"
+"3. /cars - show avaible NFTs\n"
+"4. /my - show your NFTs\n"
+"5. /lang - change language\n"
+"6. /help - support"
+msgstr ""
+
+#: tgbot/handlers/my.py:18 tgbot/handlers/my.py:40
+msgid ""
+"Statistics on all NFTs:\n"
+"   You have {amount_user_nfts} NFTs\n"
+"   Rented days: {amount_rent_days}\n"
+"   Total earnings: {total_earnings}$\n"
+"You can see statistics about each NFT separately ⬇"
+msgstr ""
+
+#: tgbot/handlers/my.py:64
+msgid ""
+"<b>{car_name}</b>\n"
+"Procent: {car_part}%\n"
+"Rented days: {rented_days}\n"
+"Earned money: {earned_money}$\n"
+msgstr ""
+
+#: tgbot/handlers/request.py:16
+msgid "You can get money once in 7 days"
+msgstr ""
+
+#: tgbot/handlers/request.py:18
+msgid ""
+"You can get: {money_to_be_paid}$\n"
+"Tap button below to pay get money"
+msgstr ""
+
+#: tgbot/handlers/request.py:41
+msgid "Request sent"
+msgstr ""
+
+#: tgbot/handlers/start.py:23
+msgid "Hi, you can see comands in /menu"
+msgstr ""
+
+#: tgbot/handlers/start.py:38
+msgid "You added new NFT you can see it in /my"
+msgstr ""
+
+#: tgbot/keyboards/inline.py:60
+msgid "Buy on OpenSea"
+msgstr ""
+
+#: tgbot/keyboards/inline.py:66 tgbot/keyboards/inline.py:109
+msgid "❌Close"
+msgstr ""
+
+#: tgbot/keyboards/inline.py:103
+msgid "🔙Back to my NFTs"
+msgstr ""
+
+#: tgbot/keyboards/inline.py:138
+msgid "💸Request {money_to_be_paid}$"
+msgstr ""
+
+#~ msgid "No avaible cars"
+#~ msgstr "Nessuna auto disponibile"
+
+#~ msgid ""
+#~ "<b>{car_name}</b>\n"
+#~ "Procent: {car_part}%\n"
+#~ msgstr ""
+#~ "<b>{car_name}</b>\n"
+#~ "Procent: {car_part}%\n"
+
+#~ msgid "Select your language"
+#~ msgstr "Seleziona la tua lingua"
+
+#~ msgid "Language changed to {}"
+#~ msgstr "Lingua cambiata in {}"
+
+#~ msgid ""
+#~ "Menu:\n"
+#~ "1. /start - start bot\n"
+#~ "2. /menu - show this menu\n"
+#~ "3. /cars - show avaible NFTs\n"
+#~ "4. /statistic - show statistic\n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Statistics on all NFTs:\n"
+#~ "   You have {amount_user_nfts} NFTs\n"
+#~ "   Rented days: {amount_rent_days}\n"
+#~ "   Total earnings: {total_earnings}$\n"
+#~ "You can see statistics about each NFT separately ⬇"
+#~ msgstr ""
+#~ "Statistiche su tutti gli NFT:\n"
+#~ "   Hai {amount_user_nfts} NFT\n"
+#~ "   Giorni noleggiati: {amount_rent_days}\n"
+#~ "   Guadagno totale: {total_earnings}$\n"
+#~ "Puoi vedere le statistiche su ogni NFT separatamente ⬇"
+
+#~ msgid ""
+#~ "<b>{car_name}</b>\n"
+#~ "Procent: {car_part}%\n"
+#~ "Rented days: {rented_days}\n"
+#~ "Earned money: {earned_money}$\n"
+#~ msgstr ""
+#~ "<b>{car_name}</b>\n"
+#~ "Procent: {car_part}%\n"
+#~ "Giorni affittati: {rented_days}\n"
+#~ "Guadagnati: {earned_money}$\n"
+
+#~ msgid "You can get money once in 7 days"
+#~ msgstr "Puoi ottenere denaro una volta in 7 giorni"
+
+#~ msgid ""
+#~ "You can get: {money_to_be_paid}$\n"
+#~ "Tap button below to pay get money"
+#~ msgstr ""
+#~ "Puoi ottenere: {money_to_be_paid}$\n"
+#~ "Tocca il pulsante in basso per pagare e ottenere denaro"
+
+#~ msgid "Request sent"
+#~ msgstr "Richiesta inviata"
+
+#~ msgid "Hi, you can see comands in /menu"
+#~ msgstr "Ciao, puoi vedere i comandi in /menu"
+
+#~ msgid "You added new NFT you can see it in /my"
+#~ msgstr "Hai aggiunto un nuovo NFT puoi vederlo in /my"
+
+#~ msgid "Buy on OpenSea"
+#~ msgstr "Acquista su OpenSea"
+
+#~ msgid "❌Close"
+#~ msgstr "❌Chiudi"
+
+#~ msgid "🔙Back to my NFTs"
+#~ msgstr "🔙Torna ai miei NFT"
+
+#~ msgid "💸Request {money_to_be_paid}$"
+#~ msgstr "💸Richiedi {money_to_be_paid}$"
+
